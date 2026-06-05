@@ -22,11 +22,8 @@
 
 ## 📁 Структура
 
-\```
-RussianSpeechAnalyzerMVP/
-├── SpeechAnalyzer/   # React Native приложение
-└── speech-server/    # FastAPI сервер
-\```
+- `SpeechAnalyzer/` — React Native приложение  
+- `speech-server/` — FastAPI сервер
 
 ## ⚙️ Как работает
 
