@@ -1,0 +1,28 @@
+# React Native / Node
+node_modules/
+.expo/
+npm-debug.log*
+*.mobileprovision
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+%USERPROFILE%/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+EOF

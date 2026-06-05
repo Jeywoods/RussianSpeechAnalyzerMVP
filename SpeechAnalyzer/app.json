@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Анализатор речи",
+    "slug": "speech-analyzer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "speechanalyzer",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a14"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Приложению нужен микрофон для записи речи и её анализа."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a14"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Приложению нужен микрофон для записи речи."
+        }
+      ]
+    ]
+  }
+}
