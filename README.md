@@ -20,14 +20,13 @@
 | 🗣 ASR | GigaAM v3 (SberBank) |
 | 📊 Анализ | librosa |
 
----
-
 ## 📁 Структура
+
+\```
 RussianSpeechAnalyzerMVP/
 ├── SpeechAnalyzer/   # React Native приложение
 └── speech-server/    # FastAPI сервер
-
----
+\```
 
 ## ⚙️ Как работает
 
